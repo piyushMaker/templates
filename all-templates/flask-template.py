@@ -50,8 +50,3 @@ if __name__ == "__main__":
     port = 8003
     httpd = simple_server.make_server(host, port, app)
     httpd.serve_forever()
-# #port = int(os.getenv("PORT"))
-# if __name__ == "__main__":
-#     clApp = ClientApp()
-#     #app.run(host='0.0.0.0', port=port)
-#     app.run(host='0.0.0.0', port=8000, debug=True)
